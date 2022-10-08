@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ecomm.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <section>
+        <header class="container">
+            <div class="logo">
+                <h1 span class="brown">Luxury<span class="logo-text ">Collections</span></h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-icons">
+              <span class="fa-solid fa-magnifying-glass open-search"></span>
+
+                <a href="signin.html" class="user-profile">
+                    <span class="fa-regular fa-user"></span>
+                </a>
+
+                <a href="cart.html" class="cart">
+                    <span class="item-in-cart">2</span>
+                    <span class="fa-solid fa-cart-shopping"></span>
+                </a>
+            </div>
+
+        </header>
+    </section>
+
+    <section>
+      <form class="search-bar">
+          <input type="search" placeholder="Enter keyword to search">
+          <div class="search">
+              <span class="fa-solid fa-magnifying-glass"></span>
+          </div>
+          <div class="close-search">
+              <span class="fa-solid fa-xmark"></span>
+          </div>
+      </form>
+  </section>
+
+    <div class="main">
+        <section>
+            <div class="container checkout">
+                <div style="margin-bottom:50px;">
+                  <div class="heading">
+                      <h1>CHECKOUT</h1>
+                  </div>
+                  <p class="home-link">
+                      <a href="ecomm.html">Home</a> / <strong>Checkout</strong>
+                  </p>
+                </div>
+                <div class="checkout-details">
+                    <div class="billing-details">
+                        <div>
+                            <h2>Billing Details</h2>
+                            <div class="cd-container">
+                              <div class="form-group">
+                                <label>Country <span class="text-danger">*</span></label>
+                                <select id="c_country" class="form-control">
+                                  <option value="1">Select a country</option>
+                                  <option value="2">Nigeria</option>      
+                                  <option value="2">USA</option>    
+                                  <option value="3">Algeria</option>    
+                                  <option value="4">Afghanistan</option>    
+                                  <option value="5">Ghana</option>    
+                                  <option value="6">Albania</option>    
+                                  <option value="7">Bahrain</option>    
+                                  <option value="8">Colombia</option>    
+                                  <option value="9">Dominican Republic</option>    
+                                </select>
+                              </div>
+                              <div class="form-group row">
+                                <div>
+                                  <label>First Name <span class="text-danger">*</span></label>
+                                  <input type="text">
+                                </div>
+                                <div>
+                                  <label>Last Name <span class="text-danger">*</span></label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                  
+                              <div class="form-group ">
+                                <label>Company Name </label>
+                                <input type="text">  
+                              </div>
+                  
+                              <div class="form-group ">
+                                <label>Address <span class="text-danger">*</span></label>
+                                <input type="text" placeholder="Street address">
+                              </div>
+                  
+                              <div class="form-group">
+                                <input type="text"  placeholder="Apartment, suite, unit etc. (optional)">
+                              </div>
+                  
+                              <div class="form-group row">
+                                <div>
+                                  <label>State / Country <span class="text-danger">*</span></label>
+                                  <input type="text">
+                                </div>
+                                <div>
+                                  <label>Posta / Zip <span class="text-danger">*</span></label>
+                                  <input type="text" class="form-control">
+                                </div>
+                              </div>
+                  
+                              <div class="form-group">
+                                  <label>Email Address <span class="text-danger">*</span></label>
+                                  <input type="text" class="form-control">
+                            </div>  
+                            <div class="form-group">
+                                <label >Phone <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control"placeholder="Phone Number">
+                            </div>
+                             
+                            </div>
+                          </div>
+
+                    </div> 
+                    <div class="order-details">
+                        <div>
+                        
+                          <div style="margin-bottom: 50px;">
+                            <div>
+                              <h2>Coupon Code</h2>
+                              <div class="cd-container">
+                
+                                <label>Enter your coupon code if you have one</label>
+                                <div class="input-group">
+                                  <input type="text" class="form-control"  placeholder="Coupon Code" >
+                                    <button type="button" \>Apply</button>
+                                </div>
+                
+                              </div>
+                            </div>
+                          </div>
+                
+                          <div>
+                              <h2>Your Order</h2>
+                              <div class="cd-container">
+                                <div class="order-table">
+                                    <div class="order-header">
+                                      <div>Product</div>
+                                      <div>Total</div>
+                                    </div>
+                                    <div class="order-list">
+                                      <div class="order">
+                                        <div class="product">Chino Botttoms Trousers <strong class="mx-2">x</strong> 1</div>
+                                        <div>$20.00</div>
+                                      </div>
+                                      <div class="order">
+                                        <div class="product">Dark Cotton Jacket <strong class="mx-2">x</strong>   1</div>
+                                        <div>$18.00</div>
+                                      </div>
+                                      <div class="order">
+                                        <div class="product"><strong>Order SubTotal</strong></div>
+                                        <div class="text-black font-weight-bold"><strong>$38.00</strong></div>
+                                      </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="add-card">
+                                  <span class="fa-regular fa-credit-card"></span>
+                                  <h3><a >Add a new Card</a></h3>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>           
+    </div>
+  
+
+
+
+  <section>
+    <div class="features container">
+        <div class="feature h-100">
+            <div class="icon">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-truck" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5v7h-1v-7a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5v1A1.5 1.5 0 0 1 0 10.5v-7zM4.5 11h6v1h-6v-1z"/>
+                    <path fill-rule="evenodd" d="M11 5h2.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5h-1v-1h1a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4.5h-1V5zm-8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                    <path fill-rule="evenodd" d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                </svg>
+            </div>
+            <h3>Worldwide Delivery</h3>
+            <p>Far far away, behind the world mountains, all over the countries.</p>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-shield-lock" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M5.443 1.991a60.17 60.17 0 0 0-2.725.802.454.454 0 0 0-.315.366C1.87 7.056 3.1 9.9 4.567 11.773c.736.94 1.533 1.636 2.197 2.093.333.228.626.394.857.5.116.053.21.089.282.11A.73.73 0 0 0 8 14.5c.007-.001.038-.005.097-.023.072-.022.166-.058.282-.111.23-.106.525-.272.857-.5a10.197 10.197 0 0 0 2.197-2.093C12.9 9.9 14.13 7.056 13.597 3.159a.454.454 0 0 0-.315-.366c-.626-.2-1.682-.526-2.725-.802C9.491 1.71 8.51 1.5 8 1.5c-.51 0-1.49.21-2.557.491zm-.256-.966C6.23.749 7.337.5 8 .5c.662 0 1.77.249 2.813.525a61.09 61.09 0 0 1 2.772.815c.528.168.926.623 1.003 1.184.573 4.197-.756 7.307-2.367 9.365a11.191 11.191 0 0 1-2.418 2.3 6.942 6.942 0 0 1-1.007.586c-.27.124-.558.225-.796.225s-.526-.101-.796-.225a6.908 6.908 0 0 1-1.007-.586 11.192 11.192 0 0 1-2.417-2.3C2.167 10.331.839 7.221 1.412 3.024A1.454 1.454 0 0 1 2.415 1.84a61.11 61.11 0 0 1 2.772-.815z"/>
+                    <path d="M9.5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    <path d="M7.411 8.034a.5.5 0 0 1 .493-.417h.156a.5.5 0 0 1 .492.414l.347 2a.5.5 0 0 1-.493.585h-.835a.5.5 0 0 1-.493-.582l.333-2z"/>
+                </svg>
+            </div>
+            <h3>Secure Payments</h3>
+            <p>Safe and secure payments, tested and trusted, all over the world </p>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12.83 6.706a5 5 0 0 0-7.103-3.16.5.5 0 1 1-.454-.892A6 6 0 1 1 2.545 5.5a.5.5 0 1 1 .91.417 5 5 0 1 0 9.375.789z"/>
+                    <path fill-rule="evenodd" d="M7.854.146a.5.5 0 0 0-.708 0l-2.5 2.5a.5.5 0 0 0 0 .708l2.5 2.5a.5.5 0 1 0 .708-.708L5.707 3 7.854.854a.5.5 0 0 0 0-.708z"/>
+                </svg>
+            </div>
+            <h3>Simple Returns</h3>
+            <p>Warranty guaranteed for faulty and unsatisfactory goods</p>
+        </div>
+    </div>
+</section>
+
+<section>
+<div class="footer">
+    <div class="container">
+      <div class="top-footer">
+        <div class="about">
+            <div class="widget">
+                <h3>About LuxuryCollections</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate modi cumque rem recusandae quaerat at asperiores beatae saepe repudiandae quam rerum aspernatur dolores et ipsa obcaecati voluptates libero</p>
+            </div>
+        </div>
+        <div>
+            <div class="widget">
+                <h3>Help</h3> 
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>   
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="widget">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">FAQ</a></li>   
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="widget">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Student Discount</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <div  class="subscribe">
+        <h3>Join our mailing list and receive exclusives</h3>
+        <form action="#">
+            <div class="mail">
+                <input type="email" class="form-control email" placeholder="Email address">
+                <input type="submit" class="button" value="Subscribe">
+            </div>
+        </form>
+    </div>
+
+
+        <div class="bottom-footer">
+            <ul class="socials">
+                <li><a href="#"><span class="icon-facebook"><i class="fab fa-facebook-f"></i></span></a></li>
+                <li><a href="#"><span class="icon-instagram"><i class="fab fa-instagram"></i></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"><i class="fab fa-linkedin-in"></i></span></a></li>
+                <li><a href="#"><span class="icon-twitter"><i class="fab fa-twitter"></i></span></a></li>
+            </ul>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright" style="font-size:12px;"></i><script>document.write(new Date().getFullYear());</script>. All Rights Reserved. - Designed  by <a href="https://stephentech.co">Stephentech.co</a> 
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+</div>    
+<script src="cart.js"></script>
+</body>
+</html>
